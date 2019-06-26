@@ -17,4 +17,5 @@ const  crawlDataSchema  =  new Schema(
 );
 
 let  crawlData  =  dbConnection.model("crawldata", crawlDataSchema);
+
 module.exports  =  crawlData;
